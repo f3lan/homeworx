@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset="UTF-8">
+		<title>homeworx</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+
+    <link rel="stylesheet" href="assets/styles/style.css">
+	</head>
+	<body>
+    <div class="container">
+      <div class="row">
+        <div class="column">
+          <img class="logo" src="assets/images/logo.png" alt="homeworx logo">
+        </div>
+        <div class="column">
+          <div class="title">
+            <h1>Aufgaben</h1>
+          </div>
+        </div>
+        <div class="column"> </div>
+        <div class="column"> </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="column">
+          <table>
+            <thead>
+              <tr>
+                <td>Datum</td>
+                <td>Beschreibung</td>
+                <td> </td>
+                <td> </td>
+              </tr>
+            </thead>
+            <tbody id="tasksTable"> </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="colomn">
+          <h2>Neue Aufgabe</h2>
+          <form>
+             <fieldset>
+               <label for="dateField">Datum</label>
+               <input type="date" placeholder="" id="dateField">
+               <label for="descriptionField">Beschreibung</label>
+               <textarea id="descriptionField"></textarea>
+             </fieldset>
+          </form>
+          <button onclick="App.saveNewTask()">
+            Speichern
+          </button>
+        </div>
+      </div>
+    </div>
+	</body>
+  <script src="assets/javascripts/renderer.js"></script>
+  <script src="assets/javascripts/storage.js"></script>
+  <script src="assets/javascripts/task.js"></script>
+  <script src="assets/javascripts/app.js"></script>
+</html>
+
