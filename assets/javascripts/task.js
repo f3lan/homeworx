@@ -16,12 +16,11 @@ class Task {
   }
 
   done() {
-    this.state = "done";
-    Storage.update(this);
+    // Implement done function.
   }
 
   toString() {
-    return 'ID: ' + this.id + ' - Description: ' + this.description;
+    // Implement toString function.
   }
 
   _generateId(){

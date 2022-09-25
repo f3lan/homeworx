@@ -21,10 +21,7 @@ class App {
   }
 
   static markTaskDone(id) {
-    let task = Storage.find(id);
-
-    task.done();
-    Renderer.renderTable();
+    // Implement done function.
   }
 }
 

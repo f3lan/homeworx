@@ -1,9 +1,7 @@
 html {
-  color: #1c4b82;
 }
 
 h1,h2,h3,h4,h5,a {
-  color: #1c4b82;
 }
 
 .logo {
@@ -11,28 +9,19 @@ h1,h2,h3,h4,h5,a {
 }
 
 .title {
-  padding-top: 7rem;
 }
 
 .new {
-  color: green;
 }
 
 .done {
-  text-decoration: line-through;
-  color: #cccccc;
 }
 
 .danger {
-  background-color: red;
-  border: 1px solid red;
 }
 
 thead {
-  font-weight: 600;
 }
 
 button {
-  background-color: #1c4b82;
-  border: 1px solid #1c4b82;
 }
